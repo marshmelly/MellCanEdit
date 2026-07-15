@@ -7,6 +7,12 @@ export default function CTA() {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
 
+
+
+  const serviceId = 'service_vqyrg1p',
+         templateId = 'template_bbq7pif',
+         publicKey = 'guGQndD2UougJWhTq';
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -15,10 +21,10 @@ export default function CTA() {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        serviceId,
+        templateId,
         form.current,
-        "YOUR_PUBLIC_KEY"
+        publicKey
       )
       .then(() => {
         setLoading(false);
