@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+// import { FaWhatsapp } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 
 export default function CTA() {
@@ -157,19 +158,33 @@ export default function CTA() {
               required
             />
 
-            <button
-              className="btn-primary"
-              type="submit"
-              disabled={loading}
-            >
-              {loading ? "Sending..." : "SEND MESSAGE →"}
-            </button>
+           <div className="contact-buttons">
 
+  <button
+    className="btn-primary"
+    type="submit"
+    disabled={loading}
+  >
+    {loading ? "Sending..." : "SEND MESSAGE →"}
+  </button>
+
+  <a
+  href="https://wa.me/254794652017?text=Hi%20Fobbs,%20I%20found%20your%20portfolio%20and%20I'd%20like%20to%20discuss%20a%20project."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn-whatsapp"
+>
+  {/* <FaWhatsapp /> */}
+  <span>WhatsApp Me</span>
+</a>
+</div>
             {message && (
               <p className="form-message">
                 {message}
               </p>
             )}
+
+           
 
           </form>
 
