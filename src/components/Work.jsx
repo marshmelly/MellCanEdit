@@ -11,10 +11,7 @@ export default function Work() {
         <div className="section-head reveal" ref={headRef}>
           <div className="section-kicker mono">PORTFOLIO</div>
           <h2 className="section-title">A few frames from recent projects.</h2>
-          <p className="section-desc">
-            Swap these placeholders for your real thumbnails, stills, and reel exports —
-            each card is sized and tagged the way a client's asset library would be.
-          </p>
+          
         </div>
 
         <div className="work-grid reveal" ref={gridRef}>

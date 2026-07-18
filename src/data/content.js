@@ -114,6 +114,6 @@ export const testimonials = [
     initials: 'NR',
     avatarClass: 'ta3',
     name: 'Nia Reyes',
-    role: 'Marketing Lead, Northline Coffee',
+    role: 'Marketing Lead, Venah Organics',
   },
 ];
