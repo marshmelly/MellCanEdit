@@ -391,6 +391,34 @@ h2.section-title{
     z-index:2;
 }
 
+.work-card {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+}
+
+.work-card:hover {
+  transform: translateY(-6px);
+  transition: transform .3s ease;
+}
+
+.work-link {
+  margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.12);
+  backdrop-filter: blur(10px);
+  font-size: .8rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+
 /* ---------- STATS BAR ---------- */
 .stats-bar{
   display:grid;grid-template-columns:repeat(4,1fr);

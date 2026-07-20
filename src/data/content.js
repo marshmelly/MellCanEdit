@@ -82,6 +82,20 @@ export const workItems = [
     client: 'Mellcanedit Agency',
     media: { type: 'image', src: '/assets/Logo.png' }
   },
+
+   {
+  id: 'w7',
+  category: 'VIDEOS',
+  ratio: '9:16',
+  size: 'square',
+  title: 'More Videos',
+  client: 'Google Drive Portfolio',
+  link: 'https://drive.google.com/drive/folders/1FHM5D_smfy4m4qRpKhuB51bisdiLpKVr?usp=sharing',
+  media: {
+    type: 'image',
+    src: '/assets/moreVideosThumbnail.png'
+  }
+},
 ];
 
 export const stats = [
@@ -113,7 +127,7 @@ export const testimonials = [
     text: "We needed a month of ad creative in a week. It showed up on time, on-brand, and it's still our best-performing set to date.",
     initials: 'NR',
     avatarClass: 'ta3',
-    name: 'Nia Reyes',
+    name: 'Norah Venah',
     role: 'Marketing Lead, Venah Organics',
   },
 ];
