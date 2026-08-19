@@ -96,6 +96,20 @@ export const workItems = [
     src: '/assets/moreVideosThumbnail.png'
   }
 },
+
+{
+  id: 'w7',
+  category: 'PHOTOS',
+  ratio: '16:9',
+  size: 'square',
+  title: 'Photography Portfolio',
+  client: 'Google Drive Portfolio',
+  link: 'https://drive.google.com/drive/folders/1Wk74BkYGZaAJEF-wLs_SioEpox2bMd8N?usp=drive_link',
+  media: {
+    type: 'image',
+    src: '/assets/Pic.png'
+  }
+},
 ];
 
 export const stats = [
