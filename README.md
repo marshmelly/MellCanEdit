@@ -1,7 +1,7 @@
 # Zara Voss — Portfolio
 
 A Vite + React portfolio for a video editor / photographer / graphic designer.
-
+A Portfolio for all my video editing, photography and design work.
 ## Getting started
 
 ```bash
