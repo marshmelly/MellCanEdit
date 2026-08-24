@@ -2,7 +2,7 @@ import Nav from './components/Nav';
 import Hero from './components/Hero';
 import TimelineRuler from './components/TimelineRuler';
 import Capability from './components/Capability';
-import Work from './components/Work';
+import Work from './components/Work2';
 import Stats from './components/Stats';
 import Testimonials from './components/Testimonials';
 import CTA from './components/CTA';
@@ -26,6 +26,7 @@ export default function App() {
 
       <TimelineRuler chapter="CH. 03" label="TESTIMONIALS" strong="FROM THE CLIENTS" delay="-5.2s" />
       <Testimonials />
+     
 
       <CTA />
       <Footer />

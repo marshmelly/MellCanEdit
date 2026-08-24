@@ -6,7 +6,7 @@ export default function Nav() {
       <div className="wrap">
         <div className="brand">
           <span className="rec-dot"></span>
-          {profile.name.toUpperCase()}
+          <a  className='navlinks' href="/">{profile.name.toUpperCase()}</a>
         </div>
         <ul className="navlinks">
           <li><a href="#work">Work</a></li>

@@ -42,6 +42,56 @@ export const tracks = [
   },
 ];
 
+export const portfolioCategories = [
+
+   {
+    id: 'design',
+    category: 'DESIGN',
+    ratio: '1:1',
+    size: 'square',
+    title: 'Design Work',
+    description: 'Branding, social media graphics, advertisements and visual design.',
+    link: '/Design',
+    internal: true,
+    media: {
+      type: 'image',
+      src: '/assets/Design.png',
+    },
+  },
+
+  {
+    id: 'videography',
+    category: 'VIDEO',
+    ratio: '9:16',
+    size: 'tall',
+    title: 'Videography',
+    description: 'Reels, campaigns, brand films and commercial video work.',
+    link: 'https://drive.google.com/drive/folders/1YuHtyEOLb95Emxvo2ytLub6wo2CQl_Kh?usp=sharing',
+    internal: false,
+    media: {
+      type: 'image',
+      src: '/assets/moreVideosThumbnail.png',
+    },
+  },
+
+  {
+    id: 'photography',
+    category: 'PHOTO',
+    ratio: '4:5',
+    size: 'portrait',
+    title: 'Photography',
+    description: 'Portraits, products, campaigns and visual storytelling.',
+    link: 'https://drive.google.com/drive/folders/1Wk74BkYGZaAJEF-wLs_SioEpox2bMd8N?usp=sharing',
+    internal: false,
+    media: {
+      type: 'image',
+      src: '/assets/Photos.png',
+    },
+  },
+
+ 
+];
+
 export const workItems = [
   {
     id: 'w1',
@@ -74,7 +124,7 @@ export const workItems = [
 
 
   {
-    id: 'w6',
+    id: 'w4',
     category: 'DESIGN',
     ratio: '9:16',
     size: 'square',
@@ -84,7 +134,7 @@ export const workItems = [
   },
 
    {
-  id: 'w7',
+  id: 'w5',
   category: 'VIDEOS',
   ratio: '9:16',
   size: 'square',
@@ -97,17 +147,56 @@ export const workItems = [
   }
 },
 
+
 {
-  id: 'w7',
-  category: 'PHOTOS',
+  id: 'w6',
+  category: 'DESIGN',
   ratio: '16:9',
   size: 'square',
-  title: 'Photography Portfolio',
-  client: 'Google Drive Portfolio',
-  link: 'https://drive.google.com/drive/folders/1Wk74BkYGZaAJEF-wLs_SioEpox2bMd8N?usp=drive_link',
-  media: {
+  title: 'Design Portfolio',
+  client: 'Milele Connect',
+    media: {
     type: 'image',
-    src: '/assets/Pic.png'
+    src: '/assets/MC_logo.jpg'
+  }
+},
+
+{
+  id: 'w7',
+  category: 'DESIGN',
+  ratio: '16:9',
+  size: 'square',
+  title: 'Poster Design',
+  client: 'Hon Isaac Rotich',
+   media: {
+    type: 'image',
+    src: '/assets/image1.jpg'
+  }
+},
+
+{
+  id: 'w8',
+  category: 'DESIGN',
+  ratio: '16:9',
+  size: 'square',
+  title: 'Poster Design',
+  client: 'M-Shule',
+   media: {
+    type: 'image',
+    src: '/assets/MShule.jpg'
+  }
+},
+
+{
+  id: 'w9',
+  category: 'DESIGN',
+  ratio: '16:9',
+  size: 'square',
+  title: 'Logo Design',
+  client: 'Fobbs Rolfenson',
+   media: {
+    type: 'image',
+    src: '/favicon.png'
   }
 },
 ];
