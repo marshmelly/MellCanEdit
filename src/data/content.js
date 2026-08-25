@@ -51,7 +51,7 @@ export const portfolioCategories = [
     size: 'square',
     title: 'Design Work',
     description: 'Branding, social media graphics, advertisements and visual design.',
-    link: '/Design',
+    link: '/design',
     internal: true,
     media: {
       type: 'image',
