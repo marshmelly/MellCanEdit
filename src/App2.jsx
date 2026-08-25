@@ -91,7 +91,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
 
           {/* DESIGN PORTFOLIO */}
-          <Route path="/design" element={<Design />} />
+          <Route path="/Design" element={<Design />} />
 
         </Route>
 
