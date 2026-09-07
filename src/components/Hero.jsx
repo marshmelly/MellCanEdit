@@ -34,9 +34,9 @@ export default function Hero() {
         </h1>
 
         <p className="hero-sub">
-          I edit video, shoot photography, and design graphics for brands that need
-          content built to stop the scroll — not just look nice sitting still.
-          Two years in, fully booked reasons why.
+          I turn ideas into visuals that demand attention.
+           From graphic design and photography to video and motion, I create brand content built to stop the scroll, tell the story, and leave a mark.
+            Two years in, I know how to make every frame count.
         </p>
 
         <div className="hero-actions">
